@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-lexend: 'Lexend', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
 }
 
 /* @media (prefers-color-scheme: dark) {

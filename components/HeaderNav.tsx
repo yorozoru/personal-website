@@ -17,12 +17,12 @@ const roboto = Roboto({
 
 export default function HeaderNav(){
     return(
-        <div className={`flex flex-row gap-80 ${lexend.variable}`}>
+        <div className={`flex flex-row gap-80 font-lexend`}>
             <Link href="/" className="text-xl">dillan pho</Link>
-            <nav className={`flex flex-row gap-2 text-l ${roboto.variable}`}>
+            <nav className={`flex flex-row gap-2 text-base font-roboto`}>
                 <Link href="/">home</Link>
                 <Link href="/projects">projects</Link>
-                <Link href="/education">education</Link>
+                <Link href="/education">about me</Link>
                 <Link href="/contact">contact</Link>
             </nav>
         </div>
