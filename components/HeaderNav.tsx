@@ -17,9 +17,9 @@ const roboto = Roboto({
 
 export default function HeaderNav(){
     return(
-        <div className={`flex flex-row gap-80 font-lexend`}>
-            <Link href="/" className="text-xl">dillan pho</Link>
-            <nav className={`flex flex-row gap-2 text-base font-roboto`}>
+        <div className={`flex flex-row justify-between font-lexend bg-transparent text-white `}>
+            <Link href="/" className="text-3xl">dillan pho</Link>
+            <nav className={`flex flex-row gap-2 text-lg font-roboto`}>
                 <Link href="/">home</Link>
                 <Link href="/projects">projects</Link>
                 <Link href="/education">about me</Link>
