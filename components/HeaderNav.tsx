@@ -23,6 +23,7 @@ export default function HeaderNav(){
                 <Link href="/">home</Link>
                 <Link href="/projects">projects</Link>
                 <Link href="/education">about me</Link>
+                <Link href="/cooking">cooking blog</Link>
                 <Link href="/contact">contact</Link>
             </nav>
         </div>

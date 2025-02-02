@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         lexend: 'var(--font-lexend)',
         roboto: 'var(--font-roboto)',
+        space_mono: 'var(--font-space_mono)',
       },
     },
   },
