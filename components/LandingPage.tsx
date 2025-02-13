@@ -18,7 +18,7 @@ const space_mono = Space_Mono({
 })
 
 
-const words = ["Full-Stack Developer", "Amateur Chef", "Baker", "Gymgoer", "Problem Solver"];
+const words = ["Software Engineer", "Amateur Chef", "Baker", "Gymgoer", "Problem Solver"];
 
 const variants = {
     enter: { y: 20, opacity: 0 },
@@ -61,7 +61,7 @@ export default function LandingPage(){
                     <div className="flex flex-col text-4xl">
                         <h2 className="text-white font-lexend">My name's Dillan and I'm a </h2>
                         <motion.div
-                        className="text-white text-8xl font-lexend"
+                        className="text-white text-8xl font-lexend ml-0"
                             key={currentIndex}
                             initial="enter"
                             animate="center"

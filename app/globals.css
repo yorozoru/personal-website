@@ -16,6 +16,24 @@
   }
 } */
 
+@keyframes gradientMove {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(270deg, #ff8a80, #ffab91, #ffd180, #ffcc80, #e6ee9c, #c5e1a5, #80deea, #80cbc4, #b39ddb, #ce93d8);
+  animation: gradientMove 20s linear infinite;
+  background-size: 400% 400%;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
