@@ -18,10 +18,9 @@ export default function AnimatedLink({ href, children, className = "" }: Animate
         >
             <Link
                 href={href}
+                className = {`text-white hover:text-sky-300 transition-colors ${className}`}
             >
-                <span className="hover:text-transparent bg-clip-text hover:animate-gradient">
-                    {children}
-                </span>
+    {children}
             </Link>
         </motion.div>
     );

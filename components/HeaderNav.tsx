@@ -23,8 +23,8 @@ export default function HeaderNav(){
             <nav className="flex flex-row gap-2 text-lg font-roboto backdrop-blur-xl px-3 py-2 rounded-3xl z-20">
                 <AnimatedLink href="/">home</AnimatedLink>
                 <AnimatedLink href="/projects">projects</AnimatedLink>
-                <AnimatedLink href="/education">about me</AnimatedLink>
                 <AnimatedLink href="/cooking">cooking blog</AnimatedLink>
+                <AnimatedLink href="/about">about</AnimatedLink>
                 <AnimatedLink href="/contact">contact</AnimatedLink>
             </nav>
         </div>
