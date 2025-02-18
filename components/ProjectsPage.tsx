@@ -1,3 +1,5 @@
+import CardPreview from "./CardPreview";
+
 export default function ProjectsPage(){
     return (
         <div className="absolute w-full min-h-screen">
@@ -13,6 +15,7 @@ export default function ProjectsPage(){
                 <div className="mt-32">
                 <h1 className="text-white font-lexend font text-2xl">Here's some of the projects I've worked on...</h1>
                 </div>
+                <CardPreview/>
             </div>
 
         </div>
