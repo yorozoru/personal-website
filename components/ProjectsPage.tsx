@@ -12,12 +12,13 @@ export default function ProjectsPage(){
                     <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm"></div>
             </div>
             <div className="relative z-1 flex justify-center">
-                <div className="mt-32">
-                <h1 className="text-white font-lexend font text-2xl">Here's some of the projects I've worked on...</h1>
+                <div className="mt-32 flex flex-col items-center">
+                <h1 className="text-white font-lexend text-center text-3xl">Here's some of the projects I've worked on...</h1>
+                <div className="mt-10">
+                    <CardPreview/>
                 </div>
-                <CardPreview/>
+                </div>
             </div>
-
         </div>
     )
 }
