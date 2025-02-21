@@ -45,7 +45,6 @@ export default function LandingPage(){
                         autoPlay
                         loop
                         muted
-                        preload="auto"
                         className="absolute min-w-full min-h-full object-cover"
                     >
                         <source src="/new_vid.mp4" type="video/mp4" />

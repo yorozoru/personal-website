@@ -7,7 +7,7 @@ export default function ProjectsPage(){
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
                     {/* Image Background */}
                     <div className="absolute top-0 left-0 w-full h-full">
-                        <Image src="/IMG_5278.jpg" alt="picture of the boston skyline from the charles river" className="w-full h-full object-cover object-center" width={1920} height={1080}/>
+                        <Image src="/IMG_5278.jpg" alt="picture of the boston skyline from the charles river" className="w-full h-full object-cover object-center" fill priority/>
                     </div>
                     {/* Dark overlay */}
                     <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm"></div>
