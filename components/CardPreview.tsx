@@ -30,7 +30,7 @@ export default function CardPreview(){
         setOpenModalId(null)
     }
 
-    let data = [
+    const data = [
         {id:1, title:"Keta", img:"IMG_5278.jpg", description:"A medication conflict checker that checks if interactions exist to help reduce potential adverse effects.", modalDesc: "Blah Blah Blah", github:"https://github.com/yorozoru/Keta", video:"https://youtu.be/EcB2JuPXxG8"},
         {id:2, title:"Domain-Specific Language (DSL) Interpreter", img:"IMG_5278.jpg", description:"Lorem", modalDesc: "Blah Blah Blah What If i yap on some more about this and nothing can be done about it so I dont even know what to do about it"},
         {id:3, title:"Second Nature", img:"IMG_5278.jpg", description:"Lorem", modalDesc: "Blah Blah Blah"},

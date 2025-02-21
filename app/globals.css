@@ -15,7 +15,12 @@
     --foreground: #ededed;
   }
 } */
-
+.font-lexend {
+  font-family: var(--font-lexend);
+}
+.font-roboto {
+  font-family: var(--font-roboto);
+}
 body {
   color: var(--foreground);
   background: var(--background);
