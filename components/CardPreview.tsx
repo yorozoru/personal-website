@@ -31,10 +31,14 @@ export default function CardPreview(){
     }
 
     const data = [
-        {id:1, title:"Keta", img:"IMG_5278.jpg", description:"A medication conflict checker that checks if interactions exist to help reduce potential adverse effects.", modalDesc: "Blah Blah Blah", github:"https://github.com/yorozoru/Keta", video:"https://youtu.be/EcB2JuPXxG8"},
-        {id:2, title:"Domain-Specific Language (DSL) Interpreter", img:"IMG_5278.jpg", description:"Lorem", modalDesc: "Blah Blah Blah What If i yap on some more about this and nothing can be done about it so I dont even know what to do about it"},
-        {id:3, title:"Second Nature", img:"IMG_5278.jpg", description:"Lorem", modalDesc: "Blah Blah Blah"},
-
+        {id:1, title:"Domain-Specific Language Interpreter", img:"IMG_5278.jpg", description:"A DSL Interpreter built in OCaml that follows a BNF design specification.", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah What If i yap on some more about this and nothing can be done about it so I dont even know what to do about it"},
+        {id:2, title:"Second Nature", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
+        {id:3, title:"Mass. HS Concussions Data Analysis", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
+        {id:4, title:"Bit.ly Clone (Link Shortener)", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
+        {id:5, title:"Keta", img:"IMG_5278.jpg", description:"A medication conflict checker that checks if interactions exist to help reduce potential adverse effects.", tech:"React, Python, Javascript, Flask, Firebase", modalDesc: "Blah Blah Blah", github:"https://github.com/yorozoru/Keta", video:"https://youtu.be/EcB2JuPXxG8"},
+        {id:6, title:"Class Registration Bot", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
+        {id:7, title:"Credit Card Fraud Detection AI Model", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
+        {id:8, title:"Throughput and Round-Trip Time Application", img:"IMG_5278.jpg", description:"Lorem", tech:"OCaml, Menhir, Dune", modalDesc: "Blah Blah Blah"},
     ]
     return(
         <div className="grid grid-cols-4 grid-rows-2 gap-10 w-full">
