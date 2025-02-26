@@ -45,6 +45,7 @@ export default function LandingPage(){
                         autoPlay
                         loop
                         muted
+                        playsInline
                         className="absolute min-w-full min-h-full object-cover"
                     >
                         <source src="/new_vid.mp4" type="video/mp4" />
@@ -56,23 +57,23 @@ export default function LandingPage(){
             </div>
             {/* Content */}
             <div className="relative z-10 h-screen flex items-center">
-                <div className="flex flex-col items-center ml-10">
-                    <div className="flex flex-col text-4xl">
-                        <h2 className="text-white font-lexend">My name's Dillan and I'm a </h2>
-                        <motion.div
-                        className="text-white text-8xl font-lexend ml-0"
-                            key={currentIndex}
-                            initial="enter"
-                            animate="center"
-                            exit="exit"
-                            variants={variants}
-                            transition={{ duration: 0.7 }}
-                        >
-                            {words[currentIndex]}
-                        </motion.div>
-                        </div>
+            <div className="flex flex-col items-center ml-10">
+                <div className="flex flex-col text-4xl">
+                    <h2 className="text-white font-lexend">My name's Dillan and I'm a </h2>
+                    <motion.div
+                        className="text-white text-8xl font-lexend"
+                        key={currentIndex}
+                        initial="enter"
+                        animate="center"
+                        exit="exit"
+                        variants={variants}
+                        transition={{ duration: 0.7 }}
+                    >
+                        {words[currentIndex]}
+                    </motion.div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
