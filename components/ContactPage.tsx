@@ -37,7 +37,7 @@ const childVariants = {
 
 const ContactPage = () => {
     const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
-    const [circles, setCircles] = useState([]);
+    const [circles, setCircles] = useState<{ x: number; y: number; velocityX: number; velocityY: number; baseVelocityX: number; baseVelocityY: number; color: string }[]>([]);
 
     useEffect(() => {
         setWindowSize({
@@ -76,7 +76,7 @@ const ContactPage = () => {
     }, []);
 
     useEffect(() => {
-        let animationFrameId;
+        let animationFrameId: number;
 
         const animate = () => {
             setCircles(prevCircles =>
@@ -149,7 +149,7 @@ const ContactPage = () => {
 
     useEffect(() => {
 
-        const handleMouseMove = (e) => {
+        const handleMouseMove = (e: { clientX: number; clientY: number; }) => {
             setCircles((prevCircles) =>
                 prevCircles.map((circle) => {
                     const dx = e.clientX - circle.x;
