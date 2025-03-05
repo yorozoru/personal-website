@@ -13,7 +13,7 @@ export default function Footer(){
             <Link href="mailto:dillanpho@dilloh.com"><EmailIcon sx={{color:"white"}}/></Link>
         </div>
         <h1 className="text-white mt-1">made with ❤️ by dillan pho</h1>
-        <h1 className="text-white mt-1">copyright © {date.getFullYear()}</h1>
+        <h2 className="text-white mt-1">copyright © {date.getFullYear()}</h2>
     </div>
     );
 

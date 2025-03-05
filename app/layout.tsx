@@ -29,7 +29,7 @@ const space_mono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "Dillan Pho",
-  description: "Dillan Pho's Personal Website",
+  description: "Heres the one-stop shop for all my projects, work, and how to get in contact with me.",
   openGraph: {
     title: 'Dillan Pho',
     siteName: "Dillan Pho's Personal Website",
