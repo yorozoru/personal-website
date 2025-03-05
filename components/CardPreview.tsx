@@ -57,7 +57,7 @@ export default function CardPreview(){
             "Applied Nominatim geocoding API and US Census geocoding API to acquire precise geolocation data and validate school locations effectively, facilitating accurate mapping of area median income alongside each high school."
         ], website:"https://docs.google.com/presentation/d/1vvPM-GZLkJTKZKjEPKeH8rYeOsqKd4Ll2EB_uPS1uw8/"},
         {id:4, title:"Bit.ly Clone (Link Shortener)", img:"proj4.png",  alt:"demo of bitly project", description:"Shortens Link With User-Provided Alias", tech:["Typescript","Next.js", "React", "MongoDB", "MaterialUI"], github:"https://github.com/yorozoru/Bitly-Clone", website:"https://mp-5-brown.vercel.app/"},
-        {id:5, title:"Class Registration Bot", img:"proj5.png",  alt:"notification of class opening", description:"Automated system for monitoring and registering for classes when seats become available.", tech:["Python", "Selenium", "ChromeDriver", "Twilio"], modalDesc: [
+        {id:5, title:"Class Registration Bot", img:"project5.png",  alt:"notification of class opening", description:"Automated system for monitoring and registering for classes when seats become available.", tech:["Python", "Selenium", "ChromeDriver", "Twilio"], modalDesc: [
             "Engineered a fully automated Python bot to monitor university class registration systems and instantly register for courses when seats become available.",
             "Implemented web scraping using Selenium and ChromeDriver to continuously check class availability across multiple course sections.",
             "Integrated Twilio API to send real-time SMS notifications upon successful registration, improving user experience and confirmation.",
