@@ -30,6 +30,22 @@ const space_mono = Space_Mono({
 export const metadata: Metadata = {
   title: "Dillan Pho",
   description: "Dillan Pho's Personal Website",
+  openGraph: {
+    title: 'Dillan Pho',
+    siteName: "Dillan Pho's Personal Website",
+    type: 'website',
+    description: 'Heres the one-stop shop for all my projects, work, and how to get in contact with me.',
+    url: 'https://dilloh.com',
+    images: [
+      {
+        url: 'thumbnail.png',
+        secureUrl: 'thumbnail.png',
+        width: 1920,
+        height: 1080,
+        alt: 'Preview image for Dillan Pho',
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
