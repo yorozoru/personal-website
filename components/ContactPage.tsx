@@ -199,7 +199,7 @@ const ContactPage = () => {
                     variants={containerVariants}
                     transition={{ duration: 1 }}
                 >
-                    <motion.h1 variants={itemVariants} className="text-6xl font-bold">
+                    <motion.h1 variants={itemVariants} className="text-center text-6xl font-bold">
                         Let&apos;s get in touch!
                     </motion.h1>
                     <motion.div className="flex gap-8 mt-14">
@@ -235,8 +235,6 @@ const ContactPage = () => {
                             variants={childVariants}
                             className="w-14 h-14 flex items-center justify-center p-5 rounded-md bg-gray-500 transition-all duration-300 hover:bg-[#FD7E14] hover:w-32 hover:rounded-lg"
                         >
-
-
                                 <DescriptionIcon sx={{ color: "white", fontSize: 48 }} />
 
                         </motion.div>

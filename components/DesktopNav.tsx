@@ -17,7 +17,7 @@ const roboto = Roboto({
     variable: '--font-roboto',
 });
 
-export default function HeaderNav(){
+export default function DesktopNav(){
     return(
         <div className="flex flex-row justify-between font-lexend bg-transparent text-white">
             <Link href="/" className="text-3xl">dillan pho</Link>

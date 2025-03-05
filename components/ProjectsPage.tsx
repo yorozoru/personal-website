@@ -34,7 +34,7 @@ const childVariants = {
 
 export default function ProjectsPage(){
     return (
-        <div className="absolute w-full min-h-screen">
+        <div className="relative w-full min-h-screen">
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
                     {/* Image Background */}
                     <div className="absolute top-0 left-0 w-full h-full">
@@ -51,10 +51,10 @@ export default function ProjectsPage(){
                 <motion.div
                 variants = {itemVariants}
                  className="flex flex-col items-center">
-                <h1 className="mt-32 text-white font-lexend text-center text-4xl">Here&apos;s some of the projects I&apos;ve worked on...</h1>
+                <h1 className="mt-32 text-white font-lexend text-center text-3xl md:text-4xl">Here&apos;s some of the projects I&apos;ve worked on...</h1>
                 <motion.div 
                  variants = {childVariants}
-                className="mt-10">
+                className="mt-10 mb-6 lg:mb-0">
                     <CardPreview/>
                 </motion.div>
                 </motion.div>

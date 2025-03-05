@@ -81,7 +81,7 @@ export default function CardPreview(){
             "Designed custom networking protocols to ensure accurate time synchronization between client and server for millisecond-precise measurements."], github:"https://github.com/yorozoru/RTT-TPUT"},
     ]
     return(
-        <div className="grid grid-cols-4 grid-rows-2 gap-10 w-full">
+        <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-10 w-full">
             {data.map((card, i) =>(
                 <Card key={i} sx={{maxWidth: 275, height: 300 }}
                 className="relative group">
@@ -107,8 +107,8 @@ export default function CardPreview(){
                     onClose={handleClose}
                     >
                         <DialogTitle className="font-lexend">{card.title}
-                        <div className="flex flex-row space-x-2 mt-2">
-                            {card.tech.map((element, i) => (<div className="rounded-xl bg-slate-200 px-2 py-1 text-sm" key={i}>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            {card.tech.map((element, i) => (<div className={"rounded-xl bg-slate-200 px-2 py-1 text-sm"} key={i}>
                                 {element}
                             </div>))}
                         </div>

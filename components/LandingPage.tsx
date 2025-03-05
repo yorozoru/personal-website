@@ -1,23 +1,8 @@
 "use client"
 import { motion } from "motion/react"
-import { Roboto, Space_Mono } from "next/font/google"
 import { useState, useEffect } from "react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from "next/link";
-
-const roboto = Roboto({
-    weight: '900',
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-roboto',
-})
-
-const space_mono = Space_Mono({
-    weight: '700',
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--font-space_mono',
-})
 
 
 const words = ["Software Engineer", "Chef-In-Progress", "Baker", "Gymgoer", "Problem Solver"];
@@ -39,7 +24,7 @@ export default function LandingPage(){
       }, []);
 
     return(
-        <div className="absolute w-full min-h-screen">
+        <div className="relative w-full min-h-screen">
             {/* Video Background */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
                 <div className="absolute top-0 left-0 w-full h-full">
@@ -60,10 +45,10 @@ export default function LandingPage(){
             {/* Content */}
             <div className="relative z-10 h-screen flex justify-center items-center">
             <div className="flex flex-col items-center">
-                <div className="flex flex-col items-center text-4xl">
-                    <h2 className="text-white font-lexend">My name's Dillan and I'm a </h2>
+                <div className="flex flex-col items-center lg:text-4xl sm:text-3xl text-xl">
+                    <h2 className="text-white font-lexend">My name&apos;s Dillan and I&apos;m a </h2>
                     <motion.div
-                        className="text-white text-8xl font-lexend"
+                        className="text-white lg:text-8xl sm:text-6xl text-[2.75rem] leading-10 font-lexend"
                         key={currentIndex}
                         initial="enter"
                         animate="center"
@@ -73,7 +58,7 @@ export default function LandingPage(){
                     >
                         {words[currentIndex]}
                     </motion.div>
-                    <Link href={"/projects"} className={"mt-16"}>
+                    <Link href={"/projects"} className={"sm:mt-16 mt-8"}>
                         <div className={"text-white font-lexend text-base p-2 border border-white rounded-full bg-transparent transition duration-700 hover:bg-white hover:text-black"}>
                         Check out my Projects <ArrowForwardIcon className={"group-hover:text-black"} sx={{color:"inherit", fontSize: "1 rem"}}/>
                         </div>

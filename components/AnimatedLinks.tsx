@@ -5,9 +5,10 @@ interface AnimatedLinkProps {
     href: string;
     children: React.ReactNode;
     className?: string;
+    onClick?: () => void;
 }
 
-export default function AnimatedLink({ href, children, className = "" }: AnimatedLinkProps) {
+export default function AnimatedLink({ href, children, className = "", onClick}: AnimatedLinkProps) {
     return (
         <motion.div
             whileHover={{
@@ -18,6 +19,7 @@ export default function AnimatedLink({ href, children, className = "" }: Animate
         >
             <Link
                 href={href}
+                onClick={onClick}
                 className = {`text-white hover:text-sky-300 transition-colors ${className}`}
             >
     {children}

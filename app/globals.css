@@ -16,10 +16,10 @@
   }
 } */
 .font-lexend {
-  font-family: var(--font-lexend);
+  font-family: var(--font-lexend), serif;
 }
 .font-roboto {
-  font-family: var(--font-roboto);
+  font-family: var(--font-roboto), serif;
 }
 body {
   color: var(--foreground);
