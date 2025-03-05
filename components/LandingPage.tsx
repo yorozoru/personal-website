@@ -2,6 +2,8 @@
 import { motion } from "motion/react"
 import { Roboto, Space_Mono } from "next/font/google"
 import { useState, useEffect } from "react";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import Link from "next/link";
 
 const roboto = Roboto({
     weight: '900',
@@ -18,7 +20,7 @@ const space_mono = Space_Mono({
 })
 
 
-const words = ["Software Engineer", "Amateur Chef", "Baker", "Gymgoer", "Problem Solver"];
+const words = ["Software Engineer", "Chef-In-Progress", "Baker", "Gymgoer", "Problem Solver"];
 
 const variants = {
     enter: { y: 20, opacity: 0 },
@@ -56,9 +58,9 @@ export default function LandingPage(){
                 <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-sm"></div>
             </div>
             {/* Content */}
-            <div className="relative z-10 h-screen flex items-center">
-            <div className="flex flex-col items-center ml-10">
-                <div className="flex flex-col text-4xl">
+            <div className="relative z-10 h-screen flex justify-center items-center">
+            <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center text-4xl">
                     <h2 className="text-white font-lexend">My name's Dillan and I'm a </h2>
                     <motion.div
                         className="text-white text-8xl font-lexend"
@@ -71,6 +73,11 @@ export default function LandingPage(){
                     >
                         {words[currentIndex]}
                     </motion.div>
+                    <Link href={"/projects"} className={"mt-16"}>
+                        <div className={"text-white font-lexend text-base p-2 border border-white rounded-full bg-transparent transition duration-700 hover:bg-white hover:text-black"}>
+                        Check out my Projects <ArrowForwardIcon className={"group-hover:text-black"} sx={{color:"inherit", fontSize: "1 rem"}}/>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

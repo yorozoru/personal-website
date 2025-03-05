@@ -1,12 +1,14 @@
-import AboutPage from "@/components/AboutPage";
+import ContactPage from "@/components/ContactPage";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact | Dillan Pho",
   description: "All the methods to get in contact with me",
 };
-export default function About(){
+export default function Contact(){
     return(
-       <AboutPage/>
+        <div>
+       <ContactPage/>
+        </div>
     )
 }

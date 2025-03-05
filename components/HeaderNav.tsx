@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Link from "next/link";
 import AnimatedLink from "./AnimatedLinks";
 import { Lexend, Roboto } from "next/font/google";

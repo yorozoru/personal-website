@@ -14,7 +14,7 @@ export default function ProjectsPage(){
             </div>
             <div className="relative z-1 flex justify-center">
                 <div className="mt-32 flex flex-col items-center">
-                <h1 className="text-white font-lexend text-center text-3xl">Here's some of the projects I've worked on...</h1>
+                <h1 className="text-white font-lexend text-center text-4xl">Here's some of the projects I've worked on...</h1>
                 <div className="mt-10">
                     <CardPreview/>
                 </div>
