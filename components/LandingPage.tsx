@@ -48,7 +48,7 @@ export default function LandingPage(){
                 <div className="flex flex-col items-center lg:text-4xl sm:text-3xl text-xl">
                     <h2 className="text-white font-lexend">My name&apos;s Dillan and I&apos;m a </h2>
                     <motion.div
-                        className="text-white lg:text-8xl sm:text-6xl text-[2.75rem] leading-10 font-lexend"
+                        className="text-white lg:text-8xl sm:text-6xl text-[2.50rem] leading-10 font-lexend"
                         key={currentIndex}
                         initial="enter"
                         animate="center"
