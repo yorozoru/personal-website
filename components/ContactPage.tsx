@@ -200,7 +200,7 @@ const ContactPage = () => {
                     transition={{ duration: 1 }}
                 >
                     <motion.h1 variants={itemVariants} className="text-6xl font-bold">
-                        Let's get in touch!
+                        Let&apos;s get in touch!
                     </motion.h1>
                     <motion.div className="flex gap-8 mt-14">
                         <Tooltip title="LinkedIn">
