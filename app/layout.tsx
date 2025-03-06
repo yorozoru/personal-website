@@ -29,12 +29,12 @@ const space_mono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "Dillan Pho",
-  description: "Heres the one-stop shop for all my projects, work, and how to get in contact with me.",
+  description: "Dillan Pho is a software engineer specializing in full-stack development and machine learning. Explore my portfolio of projects, technical insights, and career journey. Whether you're looking for innovative web applications, scalable software solutions, or a way to connect, this is the place to start.",
   openGraph: {
     title: 'Dillan Pho',
     siteName: "Dillan Pho's Personal Website",
     type: 'website',
-    description: 'Heres the one-stop shop for all my projects, work, and how to get in contact with me.',
+    description: "Dillan Pho is a software engineer specializing in full-stack development and machine learning. Explore my portfolio of projects, technical insights, and career journey. Whether you're looking for innovative web applications, scalable software solutions, or a way to connect, this is the place to start.",
     url: 'https://dilloh.com',
     images: [
       {
