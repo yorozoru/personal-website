@@ -54,7 +54,7 @@ export default function ProjectsPage(){
                 <h1 className="mt-32 text-white font-lexend text-center text-3xl md:text-4xl">Here&apos;s some of the projects I&apos;ve worked on...</h1>
                 <motion.div 
                  variants = {childVariants}
-                className="mt-10 mb-6 lg:mb-0">
+                className="mt-10 mb-6">
                     <CardPreview/>
                 </motion.div>
                 </motion.div>
