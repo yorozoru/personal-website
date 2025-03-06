@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Projects | Dillan Pho",
-  description: "Projects I've made or contributed to.",
+  description: "These are the projects I've made or contributed to.",
 };
 export default function Projects(){
     return(

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact | Dillan Pho",
-  description: "All the methods to get in contact with me",
+  description: "This is a contact page which has my LinkedIn, Email and resume, and a little interactive game in the background.",
 };
 export default function Contact(){
     return(
