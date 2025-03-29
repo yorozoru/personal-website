@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import Link from "next/link";
 import AnimatedLink from "./AnimatedLinks";
 import { Lexend, Roboto } from "next/font/google";
@@ -19,7 +18,7 @@ const roboto = Roboto({
 
 export default function DesktopNav(){
     return(
-        <div className="flex flex-row justify-between font-lexend bg-transparent text-white">
+        <div className={`flex flex-row justify-between font-lexend bg-transparent text-white ${lexend.variable} ${roboto.variable}`}>
             <Link href="/" className="text-3xl">dillan pho</Link>
             <nav className="flex flex-row gap-2 text-lg font-roboto backdrop-blur-3xl px-3 py-2 rounded-3xl z-20">
                 <AnimatedLink href="/">home</AnimatedLink>
