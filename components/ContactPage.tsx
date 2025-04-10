@@ -230,7 +230,7 @@ const ContactPage = () => {
                             </Link>
                         </Tooltip>
                         <Tooltip title="Resume">
-                            <Link href="/DILLAN_FE.pdf">
+                            <Link target = "_blank" href="/DILLAN_FE.pdf">
                         <motion.div
                             variants={childVariants}
                             className="w-14 h-14 flex items-center justify-center p-5 rounded-md bg-gray-500 transition-all duration-300 hover:bg-[#FD7E14] hover:w-32 hover:rounded-lg"
