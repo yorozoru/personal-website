@@ -92,6 +92,7 @@ export default function CardPreview(){
                         )}
                         {(card.github || card.video || card.website) && (
                         <DialogActions>
+                            <h2 className="font-lexend">Links:</h2>
                             {card.github && (
                              <Link href={card.github} target="_blank"><GitHubIcon sx={{color:"black"}}/></Link>
                             )}
