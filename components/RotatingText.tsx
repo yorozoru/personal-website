@@ -5,7 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Link from "next/link";
 
 
-const words = ["Software Engineer", "Chef-In-Progress", "Baker", "Gymgoer", "Problem Solver"];
+const words = ["Software Engineer", "Cheesecake Extraordinaire", "Crab Rangoon Lover", "Gym Rat", "Problem Solver"];
 
 const variants = {
     enter: { y: 20, opacity: 0 },
