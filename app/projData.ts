@@ -3,7 +3,7 @@ const data = [
         modalDesc: [
     "Engineered a mobile app capable of parsing and rendering third-party extension data to display comics and other visual media.",
     "Built a custom media viewer with smooth, seamless page navigation tailored for long-form visual content.",
-    "Implemented image caching and memoized comic metadata to reduce network calls and improve load times.",
+    "Implemented caching for images and comic metadata to reduce network calls and improve load times.",
     "Structured the codebase for scalability, enabling planned features like bookmarks, offline access, and multi-source support.",
     "Developed scalable search and history tracking to support fast retrieval and cross-source navigation."
     ], video: "https://youtube.com/shorts/XqKMwrK9hFc"},
