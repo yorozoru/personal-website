@@ -25,10 +25,10 @@ export default function RotatingText(){
       }, []);
       
     return(
-        <div className="flex flex-col items-center lg:text-4xl sm:text-3xl text-xl">
-        <h2 className="text-white font-lexend">My name&apos;s Dillan and I&apos;m a </h2>
+        <div className="flex flex-col items-center lg:text-4xl sm:text-3xl text-xl px-4">
+        <h2 className="text-white font-lexend text-center">My name&apos;s Dillan and I&apos;m a </h2>
         <motion.div
-            className="text-white lg:text-8xl sm:text-6xl text-[2.50rem] leading-10 font-lexend"
+            className="text-white lg:text-8xl sm:text-6xl text-4xl text-center break-words font-lexend"
             key={currentIndex}
             initial="enter"
             animate="center"
