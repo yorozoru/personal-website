@@ -2,11 +2,8 @@ import Image from "next/image";
 
 export default function ParagraphWrap() {
     return (
-        <div className="text-white md:text-2xl text-xl md:mx-96 mx-3">
-            {/* This element will float to the right.
-          You can either leave it empty to reserve space or include an image */}
+        <div className="text-white md:text-2xl text-xl 2xl:mx-96 xl:mx-64 lg:mx-32 md:mx-16 mx-6">
             <div className="float-right ml-2 mt-2 sm:ml-4 sm:mt-4">
-                {/* Uncomment the Image below to display an image instead of empty space */}
                 <Image
                     src="/portrait_about.jpg"
                     alt="picture of me in rhode island"
